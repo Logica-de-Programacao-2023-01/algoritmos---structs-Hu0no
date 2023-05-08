@@ -17,7 +17,3 @@ type Person struct {
 func CompleteAddress(person Person) Person {
 	return person
 }
-func main() {
-	person := Person{name: "Marcola", age: 18, address: Address{street: "Primeira Avenida", number: 502, city: "Brasília", state: "DF"}}
-	fmt.Print(CompleteAddress(person).address)
-}
